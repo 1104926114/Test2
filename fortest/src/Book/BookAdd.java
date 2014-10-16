@@ -1,3 +1,4 @@
+--xixiixxiixixi
 package Book;
 import com.opensymphony.xwork2.ActionSupport;
 import java.sql.*;
@@ -31,7 +32,7 @@ public class BookAdd extends ActionSupport{
 	        int count1 = st.executeUpdate(add1); 
 	        int count2 = st.executeUpdate(add2); 
 	              
-	        System.out.println("《"+title+"》添加成功^_^");
+	        System.out.println("《"+title+"》添加成功! ^_^");
 	        System.out.println("Book表中添加 "+count1+" 条数据");
 	        System.out.println("Author表中添加"+count2+" 条数据");
 			ret = SUCCESS;
