@@ -53,7 +53,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     	<td><a href ="update.jsp"><h3>Update</h3></a></td>
     </table>
     <table align="center">  	
-    	<h3><a href="index.jsp">返回查询</a>
+    	<h3><a href="index.jsp">Return</a>
     </table>
   </body> 
 </html>

@@ -49,10 +49,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	     
 		</s:iterator>
 		</tr>	
-  	</table>
-  	<br>
-	<table align ="center">
 		<h3><a href = "query_result.jsp">关闭</a></h3>
-	</table> 
+  	</table>
+
+
   </body>
 </html>
